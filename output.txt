@@ -1,0 +1,128 @@
+package
+
+import entidade.persistenciaEL.BaseEntidadePersistirEsocial;
+import entidade.persistenciaEL.DBFieldELEsocial;
+import entidade.persistenciaEL.DBTableELEsocial;
+import java.sql.Timestamp;
+import java.sql.Date;
+import java.math.BigDecimal;
+
+@DBTableELEsocial(schema="el_rhfolha_esocial" , table="fl_esocial_s2405_info ")
+public class FlEsocialS2405InfoDBTableEL extends BaseEntidadePersistirEsocial {
+
+@DBFieldELEsocial(colummn = "id", requerid = true, persist = true, index = 0)
+public String id = "";
+
+@DBFieldELEsocial(colummn = "id_empregador", requerid = true, persist = true, index = 0)
+public String idEmpregador = "";
+
+@DBFieldELEsocial(colummn = "id_esocial_trabalhador_2405", requerid = true, persist = true, index = 0)
+public String idEsocialTrabalhador2405 = "";
+
+@DBFieldELEsocial(colummn = "id_movimentacao", requerid = true, persist = true, index = 0)
+public String idMovimentacao = "";
+
+@DBFieldELEsocial(colummn = "dtalteracao", requerid = true, persist = true, index = 0)
+public Date dtalteracao = null;
+
+@DBFieldELEsocial(colummn = "id_esocial_operacao", requerid = true, persist = true, index = 0)
+public String idEsocialOperacao = "";
+
+@DBFieldELEsocial(colummn = "data_geracao", requerid = true, persist = true, index = 0)
+public Timestamp dataGeracao = null;
+
+@DBFieldELEsocial(colummn = "version_trabalhador", requerid = false, persist = true, index = 0)
+public Integer versionTrabalhador = null;
+
+@DBFieldELEsocial(colummn = "id_lote", requerid = false, persist = true, index = 0)
+public String idLote = "";
+
+@DBFieldELEsocial(colummn = "idevtcdbenefalt", requerid = true, persist = true, index = 0)
+public String idevtcdbenefalt = "";
+
+@DBFieldELEsocial(colummn = "idevtcdbenefalt_restrito", requerid = true, persist = true, index = 0)
+public String idevtcdbenefaltRestrito = "";
+
+@DBFieldELEsocial(colummn = "nr_recibo_retorno", requerid = false, persist = true, index = 0)
+public String nrReciboRetorno = "";
+
+@DBFieldELEsocial(colummn = "nr_recibo_retorno_teste", requerid = false, persist = true, index = 0)
+public String nrReciboRetornoTeste = "";
+
+@DBFieldELEsocial(colummn = "nr_recibo_producao_anterior", requerid = false, persist = true, index = 0)
+public String nrReciboProducaoAnterior = "";
+
+@DBFieldELEsocial(colummn = "nr_recibo_producao_restrita_anterior", requerid = false, persist = true, index = 0)
+public String nrReciboProducaoRestritaAnterior = "";
+
+@DBFieldELEsocial(colummn = "id_lote_restrito", requerid = false, persist = true, index = 0)
+public String idLoteRestrito = "";
+
+@DBFieldELEsocial(colummn = "id_trabalhador_dados", requerid = false, persist = true, index = 0)
+public String idTrabalhadorDados = "";
+
+@DBFieldELEsocial(colummn = "id_trabalhador_dados_movimentacao", requerid = false, persist = true, index = 0)
+public String idTrabalhadorDadosMovimentacao = "";
+
+@DBFieldELEsocial(colummn = "version_dados", requerid = false, persist = true, index = 0)
+public Integer versionDados = null;
+
+@DBFieldELEsocial(colummn = "id_trabalhador_ender", requerid = false, persist = true, index = 0)
+public String idTrabalhadorEnder = "";
+
+@DBFieldELEsocial(colummn = "id_trabalhador_ender_mov", requerid = false, persist = true, index = 0)
+public String idTrabalhadorEnderMov = "";
+
+@DBFieldELEsocial(colummn = "version_ender", requerid = false, persist = true, index = 0)
+public Integer versionEnder = null;
+
+@DBFieldELEsocial(colummn = "id_trabalhador_benef", requerid = false, persist = true, index = 0)
+public String idTrabalhadorBenef = "";
+
+@DBFieldELEsocial(colummn = "id_trabalhador_benef_mov", requerid = false, persist = true, index = 0)
+public String idTrabalhadorBenefMov = "";
+
+@DBFieldELEsocial(colummn = "version_benef", requerid = false, persist = true, index = 0)
+public Integer versionBenef = null;
+
+@DBFieldELEsocial(colummn = "id_trabalhador_def", requerid = false, persist = true, index = 0)
+public String idTrabalhadorDef = "";
+
+@DBFieldELEsocial(colummn = "id_trabalhador_def_mov", requerid = false, persist = true, index = 0)
+public String idTrabalhadorDefMov = "";
+
+@DBFieldELEsocial(colummn = "version_def", requerid = false, persist = true, index = 0)
+public Integer versionDef = null;
+
+@DBFieldELEsocial(colummn = "hash_dependente", requerid = false, persist = true, index = 0)
+public String hashDependente = "";
+
+@DBFieldELEsocial(colummn = "chave_comparacao", requerid = false, persist = true, index = 0)
+public String chaveComparacao = "";
+
+@DBFieldELEsocial(colummn = "manter_registro", requerid = false, persist = true, index = 0)
+public String manterRegistro = "";
+
+@DBFieldELEsocial(colummn = "id_esocial_operacao_restrita", requerid = false, persist = true, index = 0)
+public String idEsocialOperacaoRestrita = "";
+
+@DBFieldELEsocial(colummn = "mensagem", requerid = false, persist = true, index = 0)
+public String mensagem = "";
+
+@DBFieldELEsocial(colummn = "mensagem_restrito", requerid = false, persist = true, index = 0)
+public String mensagemRestrito = "";
+
+@DBFieldELEsocial(colummn = "situacao_reg", requerid = false, persist = true, index = 0)
+public Integer situacaoReg = null;
+
+@DBFieldELEsocial(colummn = "situacao_reg_restrito", requerid = false, persist = true, index = 0)
+public Integer situacaoRegRestrito = null;
+
+@DBFieldELEsocial(colummn = "data_proc_esocial", requerid = false, persist = true, index = 0)
+public Timestamp dataProcEsocial = null;
+
+@DBFieldELEsocial(colummn = "data_proc_esocial_restrito", requerid = false, persist = true, index = 0)
+public Timestamp dataProcEsocialRestrito = null;
+
+
+}

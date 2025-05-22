@@ -1,0 +1,3 @@
+configurações/tipagem: configure os tipos de dados psql em Java.
+modo de uso: copie seu create table do lado esquerdo e clique em executar, se tudo correr bem a DBTable sera apresentada do lado diretiro 
+

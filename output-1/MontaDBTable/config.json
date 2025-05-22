@@ -1,0 +1,9 @@
+{
+    "VARCHAR": "String",
+    "INTEGER": "Integer",
+    "NUMERIC": "BigDecimal",
+    "DATE": "Date",
+    "TIMESTAMP": "Timestamp",
+    "TEXT": "String",
+    "INT4": "Integer"
+}
